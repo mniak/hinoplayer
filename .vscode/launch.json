@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'hinoplayer'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=hinoplayer",
+                    "--package=hinoplayer"
+                ],
+                "filter": {
+                    "name": "hinoplayer",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'hinoplayer'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=hinoplayer",
+                    "--package=hinoplayer"
+                ],
+                "filter": {
+                    "name": "hinoplayer",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
