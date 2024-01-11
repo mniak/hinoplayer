@@ -5,9 +5,27 @@ use sdl2::keyboard::Keycode;
 use sdl2::libc::printf;
 use sdl2::pixels::Color;
 use sdl2::rect::Rect;
-use sdl2::render::{Texture, TextureCreator};
+use sdl2::render::{self, Texture, TextureCreator};
 use sdl2::ttf;
 use std::time::Duration;
+
+fn expand_rect(a: Rect, b: Rect) -> Rect {
+    let min_x = a.x().min(b.x());
+    let min_y = a.y().min(b.y());
+    let max_x = (a.x() + a.width() as i32).max(b.x() + b.width() as i32);
+    let max_y = (a.y() + a.height() as i32).max(b.y() + b.height() as i32);
+
+    Rect::new(min_x, min_y, (max_x - min_x) as u32, (max_y - min_y) as u32)
+}
+
+fn grow_rect(rect: Rect,  top: i32, right: i32, bottom: i32, left: i32) -> Rect {
+    Rect::new(
+        rect.x() - left,
+        rect.y() - top,
+        rect.width() + left as u32 + right as u32,
+        rect.height() + top as u32 + bottom as u32,
+    )
+}
 
 pub fn main() -> Result<(), String> {
     let sdl = sdl2::init()?;
@@ -34,9 +52,6 @@ pub fn main() -> Result<(), String> {
 
     canvas.set_draw_color(Color::RGB(10, 10, 10));
     canvas.clear();
-
-    canvas.set_draw_color(Color::RGB(200, 200, 200));
-    canvas.fill_rect(Rect::new(1, 1, 100, 100))?;
 
     let lines = ["First line", "And the other line"];
     let (canvas_width, canvas_height) = canvas.output_size()?;
@@ -75,14 +90,22 @@ pub fn main() -> Result<(), String> {
             },
         )
         .collect();
-    
-    for line in rendered_lines? {
+    let rendered_lines = rendered_lines?;
+    let bounding_box_rect = rendered_lines
+        .iter()
+        .skip(1)
+        .fold(rendered_lines[0].2, |acc, line| expand_rect(acc, line.2));
+    let bounding_box_rect = grow_rect(bounding_box_rect, 20, 30, 10, 30);
+
+    canvas.set_draw_color(Color::RGB(200, 200, 200));
+    canvas.fill_rect(bounding_box_rect)?;
+
+    for line in rendered_lines {
         let (text_texture, text_rect, target_rect) = line;
         canvas
             .copy(&text_texture, text_rect, target_rect)
             .map_err(|e| e.to_string())?;
     }
-    
 
     canvas.present();
 
