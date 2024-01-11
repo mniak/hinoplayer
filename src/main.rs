@@ -58,11 +58,11 @@ pub fn main() -> Result<(), String> {
     let total_text_height = (font.recommended_line_spacing() * lines.len() as i32) as f32;
     let offset = font.recommended_line_spacing() as f32 * 4.0 / 7.0;
 
-    let rendered_lines: Result<Vec<(Texture<'_>, Rect, Rect)>, String> = lines
+    let rendered_lines: Result<Vec<_>, String> = lines
         .iter()
         .enumerate()
         .map(
-            |(index, line)| -> Result<(Texture<'_>, Rect, Rect), String> {
+            |(index, line)| -> Result<_, String> {
                 let text_surface = font
                     .render(line)
                     .blended(Color::RGBA(50, 50, 100, 255))
