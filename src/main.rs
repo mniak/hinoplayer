@@ -36,12 +36,8 @@ pub fn main() -> Result<(), String> {
     let font = sdl_ttf.load_font("./assets/din-condensed-bold.ttf", 96)?;
 
     let window = video
-        .window(
-            "HinoPlayer: Video",
-            (display_mode.w as f32 * 0.8) as u32,
-            (display_mode.h as f32 * 0.8) as u32,
-        )
-        // .fullscreen()
+        .window("HinoPlayer: Video", 0, 0)
+        .fullscreen_desktop()
         .position_centered()
         .opengl()
         .build()
