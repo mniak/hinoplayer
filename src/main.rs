@@ -18,7 +18,7 @@ fn expand_rect(a: Rect, b: Rect) -> Rect {
     Rect::new(min_x, min_y, (max_x - min_x) as u32, (max_y - min_y) as u32)
 }
 
-fn grow_rect(rect: Rect,  top: i32, right: i32, bottom: i32, left: i32) -> Rect {
+fn grow_rect(rect: Rect, top: i32, right: i32, bottom: i32, left: i32) -> Rect {
     Rect::new(
         rect.x() - left,
         rect.y() - top,
@@ -61,34 +61,32 @@ pub fn main() -> Result<(), String> {
     let rendered_lines: Result<Vec<_>, String> = lines
         .iter()
         .enumerate()
-        .map(
-            |(index, line)| -> Result<_, String> {
-                let text_surface = font
-                    .render(line)
-                    .blended(Color::RGBA(50, 50, 100, 255))
-                    .map_err(|e| e.to_string())?;
-                let text_rect = text_surface.rect();
-                let text_texture = texture_creator
-                    .create_texture_from_surface(text_surface)
-                    .map_err(|e| e.to_string())?;
+        .map(|(index, line)| {
+            let text_surface = font
+                .render(line)
+                .blended(Color::RGBA(50, 50, 100, 255))
+                .map_err(|e| e.to_string())?;
+            let text_rect = text_surface.rect();
+            let text_texture = texture_creator
+                .create_texture_from_surface(text_surface)
+                .map_err(|e| e.to_string())?;
 
-                let center_x = canvas_width as f32 / 2.0;
-                let center_y = canvas_height as f32 / 2.0;
-                let line_center_y = center_y - text_rect.h as f32 / 2.0
-                    + (font.recommended_line_spacing() * index as i32) as f32
-                    - total_text_height / 2.0
-                    + offset;
+            let center_x = canvas_width as f32 / 2.0;
+            let center_y = canvas_height as f32 / 2.0;
+            let line_center_y = center_y - text_rect.h as f32 / 2.0
+                + (font.recommended_line_spacing() * index as i32) as f32
+                - total_text_height / 2.0
+                + offset;
 
-                let target_rect = Rect::new(
-                    (center_x - (text_rect.width() as f32) / 2.0) as i32,
-                    line_center_y as i32,
-                    text_rect.width(),
-                    text_rect.height(),
-                );
+            let target_rect = Rect::new(
+                (center_x - (text_rect.width() as f32) / 2.0) as i32,
+                line_center_y as i32,
+                text_rect.width(),
+                text_rect.height(),
+            );
 
-                Ok((text_texture, text_rect, target_rect))
-            },
-        )
+            Ok((text_texture, text_rect, target_rect))
+        })
         .collect();
     let rendered_lines = rendered_lines?;
     let bounding_box_rect = rendered_lines
