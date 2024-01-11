@@ -19,8 +19,8 @@ pub fn main() -> Result<(), String> {
     let window = video
         .window(
             "HinoPlayer: Video",
-            display_mode.w as u32 / 2,
-            display_mode.h as u32 / 2,
+            display_mode.w as u32,
+            display_mode.h as u32,
         )
         // .fullscreen()
         .position_centered()
@@ -31,25 +31,41 @@ pub fn main() -> Result<(), String> {
     let mut canvas = window.into_canvas().build().map_err(|e| e.to_string())?;
     let texture_creator = canvas.texture_creator();
 
-    // let lines = ["First line", "And the other line"];
+    canvas.set_draw_color(Color::RGB(10, 10, 10));
+    canvas.clear();
 
-    // for line in lines {
+    canvas.set_draw_color(Color::RGB(200, 200, 200));
+    canvas.fill_rect(Rect::new(1, 1, 100, 100))?;
+
+    let lines = ["First line", "And the other line"];
+    let (canvas_width, canvas_height) = canvas.output_size()?;
+    for (index, line) in lines.iter().enumerate() {
         let text_surface = font
-            .render("line")
-            .blended(Color::RGBA(255, 255, 0, 255))
+            .render(line)
+            .blended(Color::RGBA(50, 50, 100, 255))
             .map_err(|e| e.to_string())?;
+        let text_rect = text_surface.rect();
         let text_texture = texture_creator
             .create_texture_from_surface(text_surface)
             .map_err(|e| e.to_string())?;
-    // }
-    
-    canvas.set_draw_color(Color::RGB(10, 10, 10));
-    canvas.clear();
-    canvas.set_draw_color(Color::RGB(200, 200, 200));
-    canvas.fill_rect(Rect::new(1,1,100,100))?;
+
+        let center_x = canvas_width / 2;
+        let line_center_y = (canvas_height / 2) as f32 + (2.0*(index as f32)-(lines.len() as f32))  * ((font.recommended_line_spacing() as f32) as f32)/2.0 + -0 as f32;
+
+
+        let target_rect = Rect::new(
+            (center_x as i32) - ((text_rect.width() as f32 / 2.0) as i32),
+            line_center_y as i32,
+            text_rect.width(),
+            text_rect.height(),
+        );
+
+        canvas
+            .copy(&text_texture, text_rect, target_rect)
+            .map_err(|e| e.to_string())?;
+    }
+
     canvas.present();
-
-
 
     let mut events = sdl.event_pump()?;
 
