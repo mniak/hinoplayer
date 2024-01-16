@@ -1,0 +1,31 @@
+{
+  "SIGLA": "ACRF",
+  "VERSAO": "Almeida Corrigida e Revisada Fiel",
+  "QUEBRA_VERSOS": 1,
+  "EXPLICACAO_VERSOS": "(31106 versos)"
+},
+{
+  "SIGLA": "ARA",
+  "VERSAO": "Almeida Revista e Atualizada",
+  "QUEBRA_VERSOS": 1,
+  "EXPLICACAO_VERSOS": "(31103 versos)\r\nJuízes 5:32 - Inexistente nesta versão. Está incorporado ao 31.\r\nII Coríntios 13:14 - Inexistente nesta versão. O verso 13 está incorporado no 12 e o 14 passou a ser o 13.\rApocalispe 12:18 - Inexistente nesta versão. Está incorporado ao 17."
+},
+{
+  "SIGLA": "ARIB",
+  "VERSAO": "Almeida Revisada Imprensa Bíblica",
+  "QUEBRA_VERSOS": 1,
+  "EXPLICACAO_VERSOS": "(31106 versos)"
+},
+{
+  "SIGLA": "NTLH",
+  "VERSAO": "Nova Tradução na Linguagem de Hoje",
+  "QUEBRA_VERSOS": 0,
+  "SIMBOLO_QUEBRA": "<pb/>",
+  "EXPLICACAO_VERSOS": "(31103 versos)"
+},
+{
+  "SIGLA": "NVI",
+  "VERSAO": "Nova Versão Internacional",
+  "QUEBRA_VERSOS": 1,
+  "EXPLICACAO_VERSOS": "(31105 versos)\r\nJuízes 5:32 - Inexistente nesta versão. Está incorporado ao 31."
+}

@@ -1,0 +1,90 @@
+{
+  "ID": 1,
+  "ARQUIVO": "1minuto_escsb.mp3",
+  "URL": "config\\1minuto_escsb.mp3"
+},
+{
+  "ID": 2,
+  "ARQUIVO": "5minutos_escsb.mp3",
+  "URL": "config\\5minutos_escsb.mp3"
+},
+{
+  "ID": 3,
+  "ARQUIVO": "abertura_escsb.mp3",
+  "URL": "config\\abertura_escsb.mp3"
+},
+{
+  "ID": 4,
+  "ARQUIVO": "din-condensed-bold.ttf",
+  "URL": "config\\fontes\\din-condensed-bold.ttf"
+},
+{
+  "ID": 5,
+  "ARQUIVO": "BD.mdb",
+  "URL": "config\\BD.mdb"
+},
+{
+  "ID": 6,
+  "ARQUIVO": "bass.dll",
+  "URL": "bass.dll"
+},
+{
+  "ID": 7,
+  "ARQUIVO": "borlndmm.dll",
+  "URL": "borlndmm.dll"
+},
+{
+  "ID": 8,
+  "ARQUIVO": "midas.dll",
+  "URL": "midas.dll"
+},
+{
+  "ID": 10,
+  "ARQUIVO": "LouvorJA.exe",
+  "URL": "LouvorJA.exe"
+},
+{
+  "ID": 11,
+  "ARQUIVO": "ssleay32.dll",
+  "URL": "ssleay32.dll"
+},
+{
+  "ID": 12,
+  "ARQUIVO": "libeay32.dll",
+  "URL": "libeay32.dll"
+},
+{
+  "ID": 13,
+  "ARQUIVO": "louvorja_slja.ico",
+  "URL": "config\\ico\\louvorja_slja.ico"
+},
+{
+  "ID": 14,
+  "ARQUIVO": "pagina_nao_encontrada.htm",
+  "URL": "config\\server\\pagina_nao_encontrada.htm"
+},
+{
+  "ID": 15,
+  "ARQUIVO": "page.htm",
+  "URL": "config\\server\\page.htm"
+},
+{
+  "ID": 16,
+  "ARQUIVO": "index.htm",
+  "URL": "config\\server\\index.htm"
+},
+{
+  "ID": 17,
+  "ARQUIVO": "file.ja",
+  "URL": "config\\server\\file\\file.ja"
+},
+{
+  "ID": 18,
+  "ARQUIVO": "estilo.css",
+  "URL": "config\\server\\lib\\estilo.css"
+},
+{
+  "ID": 19,
+  "ARQUIVO": "scripts.js",
+  "URL": "config\\server\\lib\\scripts.js"
+}

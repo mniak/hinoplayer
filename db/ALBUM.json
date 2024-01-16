@@ -1,0 +1,419 @@
+{
+  "ID": 1,
+  "NOME": "Nosso Sol é Jesus",
+  "IMAGEM": "1992.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 2,
+  "NOME": "Já é Tempo",
+  "IMAGEM": "1993.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 3,
+  "NOME": "Jesus, Meu Rei, Meu Amigo",
+  "IMAGEM": "1994.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 4,
+  "NOME": "A Diferença é Cristo",
+  "IMAGEM": "1995.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 5,
+  "NOME": "A Diferença é Cristo II",
+  "IMAGEM": "1996.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 6,
+  "NOME": "Na Direção de Deus",
+  "IMAGEM": "1997.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 7,
+  "NOME": "Missão",
+  "IMAGEM": "1998.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 8,
+  "NOME": "Rumo ao Porto Seguro",
+  "IMAGEM": "1999.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 9,
+  "NOME": "É Tempo de ver Jesus",
+  "IMAGEM": "2000.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 10,
+  "NOME": "Quase no Lar",
+  "IMAGEM": "2001.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 11,
+  "NOME": "Você me Pertence",
+  "IMAGEM": "2002.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 12,
+  "NOME": "Ensina-me a Servir",
+  "IMAGEM": "2003.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 13,
+  "NOME": "Senhor, Somos Tua Voz",
+  "IMAGEM": "2004.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 14,
+  "NOME": "Fiel a Toda Prova",
+  "IMAGEM": "2005.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 15,
+  "NOME": "Sou de Jesus",
+  "IMAGEM": "2006.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 16,
+  "NOME": "Vencedor Cada Dia",
+  "IMAGEM": "2007.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 17,
+  "NOME": "Vivo por Jesus",
+  "IMAGEM": "2008.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 18,
+  "NOME": "Brilha em Mim",
+  "IMAGEM": "2009.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 19,
+  "NOME": "Geração Esperança",
+  "IMAGEM": "2010.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 20,
+  "NOME": "Amigos da Esperança",
+  "IMAGEM": "2011.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 21,
+  "NOME": "A Grande Esperança",
+  "IMAGEM": "2012.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 629,
+  "NOME": "Hinário Adventista 1996",
+  "IMAGEM": "hasd.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 631,
+  "NOME": "Gente como Jesus",
+  "IMAGEM": "2013.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 663,
+  "NOME": "A Única Esperança",
+  "IMAGEM": "2014.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 664,
+  "NOME": "Adoradores",
+  "IMAGEM": "adoradores.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 665,
+  "NOME": "Eu Sou a Mensagem",
+  "IMAGEM": "2015.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 666,
+  "NOME": "Adoradores 2",
+  "IMAGEM": "adoradores2.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 667,
+  "NOME": "Celebra São Paulo",
+  "IMAGEM": "celebra_sp.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 669,
+  "NOME": "Celebra São Paulo 2",
+  "IMAGEM": "celebra_sp_2.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 670,
+  "NOME": "Adoradores 3",
+  "IMAGEM": "adoradores3.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 671,
+  "NOME": "Mais que Paixão",
+  "IMAGEM": "2016.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 672,
+  "NOME": "Eu Creio",
+  "IMAGEM": "2017.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 673,
+  "NOME": "Fé e Ação",
+  "IMAGEM": "2018.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 674,
+  "NOME": "Toque Minhas Mãos",
+  "IMAGEM": "toque_em_minhas_maos.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 676,
+  "NOME": "Adoração Infantil",
+  "IMAGEM": "jesus_criancas.jpg",
+  "PERMITE_DESATIVAR": "N"
+},
+{
+  "ID": 677,
+  "NOME": "Dízimos e Ofertas",
+  "IMAGEM": "dinheiro.jpg",
+  "PERMITE_DESATIVAR": "N"
+},
+{
+  "ID": 678,
+  "NOME": "Término de Culto",
+  "IMAGEM": "igreja.jpg",
+  "PERMITE_DESATIVAR": "N"
+},
+{
+  "ID": 679,
+  "NOME": "Oração Intercessora",
+  "IMAGEM": "oracao.jpg",
+  "PERMITE_DESATIVAR": "N"
+},
+{
+  "ID": 680,
+  "NOME": "Entrada da Plataforma",
+  "IMAGEM": "pessoas.jpg",
+  "PERMITE_DESATIVAR": "N"
+},
+{
+  "ID": 681,
+  "NOME": "Salmos",
+  "IMAGEM": "salmos.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 682,
+  "NOME": "Filhos de Israel",
+  "IMAGEM": "filhos_de_israel.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 683,
+  "NOME": "Corinhos",
+  "IMAGEM": "corinhos.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 684,
+  "NOME": "É Hora de Viver",
+  "IMAGEM": "e_hora_de_viver.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 685,
+  "NOME": "Jesus Luz do Mundo",
+  "IMAGEM": "jesus_luz_do_mundo.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 687,
+  "NOME": "Momentos de Louvor 2005",
+  "IMAGEM": "momentos_louvor_2005.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 688,
+  "NOME": "Momentos de Louvor 2006",
+  "IMAGEM": "momentos_louvor_2006.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 689,
+  "NOME": "Momentos de Louvor 2007",
+  "IMAGEM": "momentos_louvor_2007.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 690,
+  "NOME": "Músicas Infantis",
+  "PERMITE_DESATIVAR": "N"
+},
+{
+  "ID": 691,
+  "NOME": "Acústico Novo Tempo",
+  "IMAGEM": "acustico_novo_tempo.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 692,
+  "NOME": "Melhore o Mundo",
+  "IMAGEM": "melhore_o_mundo.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 693,
+  "NOME": "Diferente",
+  "IMAGEM": "diferente.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 694,
+  "NOME": "Salmos 2",
+  "IMAGEM": "salmos2.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 695,
+  "NOME": "Somos Tuas Mãos",
+  "IMAGEM": "2019.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 696,
+  "NOME": "Na Trilha da Conquista",
+  "IMAGEM": "na_trilha_da_conquista.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 697,
+  "NOME": "Está Escrito",
+  "IMAGEM": "esta_escrito.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 698,
+  "NOME": "Novo Sentido",
+  "IMAGEM": "novo_sentido.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 699,
+  "NOME": "Até que Ele Venha",
+  "IMAGEM": "ate_que_ele_venha.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 701,
+  "NOME": "Magnífico Deus",
+  "IMAGEM": "magnifico_deus.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 702,
+  "NOME": "Músicas Diversas",
+  "IMAGEM": "diversas.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 703,
+  "NOME": "Adoradores 4",
+  "IMAGEM": "adoradores4.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 704,
+  "NOME": "Celebra São Paulo 3",
+  "IMAGEM": "celebra_sp_3.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 705,
+  "NOME": "Tudo por Ele",
+  "IMAGEM": "2020.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 706,
+  "NOME": "Pôr do Sol",
+  "IMAGEM": "por_do_sol.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 707,
+  "NOME": "Ministério da Mulher",
+  "IMAGEM": "ministerio_da_mulher.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 708,
+  "NOME": "Chegou a Hora",
+  "IMAGEM": "2021.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 709,
+  "NOME": "Na Presença de Deus",
+  "IMAGEM": "na_presenca_de_deus.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 710,
+  "NOME": "Momentos de Louvor 2013",
+  "IMAGEM": "pg.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 711,
+  "NOME": "Eu Vou",
+  "IMAGEM": "2022.bmp",
+  "PERMITE_DESATIVAR": "S"
+},
+{
+  "ID": 712,
+  "NOME": "Hinário Adventista",
+  "IMAGEM": "hasd.bmp",
+  "PERMITE_DESATIVAR": "N"
+},
+{
+  "ID": 713,
+  "NOME": "Jesus Venceu",
+  "IMAGEM": "semana_santa_2023.bmp",
+  "PERMITE_DESATIVAR": "S"
+}
